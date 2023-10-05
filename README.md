@@ -11,8 +11,11 @@ Password: **eri_backend**
 
 For **Approval User**:
 
-Email: **tes@email.com**  
-Password: **12345678** 
+Email1: **tes@email.com**  
+Email2: **you@email.com**  
+Email3: **me@email.com**  
+Email4: **they@email.com**  
+Password (Same): **12345678** 
 ## Instalation Process
 1. Clone this repository to your local environment
 2. After that, update composer package
