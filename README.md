@@ -28,16 +28,7 @@ php artisan key:generate
 ```bash
 php artisan migrate:fresh --seed
 ```
-6. Create a storage directory in laravel project's root directory
-```bash
-mkdir -p storage/framework/{cache,sessions,views}
-chmod -R 775 storage
-```
-7. Generate the required symbolic link to '***storage/app/public***'
-```bash
-php artisan storage:link
-```
-8. Application is ready to use
+6. Application is ready to use
 ## Instruction 
 1. First you have to login as admin or approval user. Note that only admin can insert rental request
 2. As an admin, you can insert a rental request by filling ***car, driver, date and approval user***. Note that system will check if the car and driver is available at given date. 
